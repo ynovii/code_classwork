@@ -1,3 +1,101 @@
 @import 'reset.css';
 @import 'fonts.css';
 @import 'layout.css';
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f6;
+  color: #333333;
+  text-align: center;
+  padding: 30px;
+}
+
+.scoreboard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-bottom: 20px;
+}
+
+.score-number {
+  font-size: 70px;
+  font-weight: bold;
+  color: #111111;
+}
+
+.score-divider {
+  font-size: 50px;
+  font-weight: bold;
+  color: #aaaaaa;
+}
+
+.score-label {
+  font-size: 16px;
+  color: #777777;
+}
+
+h1 {
+  font-size: 28px;
+}
+
+.buttons {
+  margin: 30px 0;
+}
+
+button {
+  font-size: 20px;
+  padding: 18px 30px;
+  margin: 5px;
+  background-color: #d3d3f0;
+  border: 1px solid #c3c3e0;
+  border-radius: 10px;
+  color: #222222;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #c3c3e8;
+}
+
+.hint {
+  color: #888888;
+  font-size: 15px;
+  margin-bottom: 30px;
+}
+
+h2 {
+  font-size: 20px;
+  text-align: left;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+#historyList {
+  list-style: none;
+  padding: 0;
+  max-width: 400px;
+  margin: 10px auto 30px auto;
+  text-align: left;
+}
+
+#historyList li {
+  padding: 6px 0;
+  border-bottom: 1px solid #e0e0e0;
+  color: #555555;
+}
+
+.reset-row {
+  margin-top: 20px;
+}
+
+#resetBtn {
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+  border-radius: 30px;
+  padding: 12px 24px;
+}
+
+#resetBtn:hover {
+  background-color: #f0f0f0;
+}
